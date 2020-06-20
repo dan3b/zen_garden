@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/*  Zen Garden Challenge, CSS styling by Dan Affen. Date - 28/05/2020    */
+
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body {
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'roboto',sans-serif;
+    text-transform: uppercase ;
+    text-shadow: 4px 4px black;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'satisfy', cursive;
+    font-size: 20px;
+    background: url(/img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 450px;
+}
+header {
+    background-image: url(../img/huntington.png);
+    
+    padding: 60px;
+    background-position: right top;
+}
+
+#zen-summary a {
+    color: black;  
+    text-decoration: none;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    padding-left: 100px ;
+    padding-right: 100px;
+    color: rgb(56, 55, 55);
+    
+}
+
+h3 {
+    font-weight: bolder;
+    font-family: 'roboto',sans-serif\;;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+#zen-participation, #zen-benefits {
+    background-color: rgb(93, 128, 93);
+    color: white;
+    padding: 10px;
+    background-image: url(../img/bamboo.png);
+}
+
+#zen-participation p , #zen-benefits p  {
+    color: white;
+}
+
+#zen-preamble abbr, #zen-summary abbr, #zen-participation abbr, #zen-participation a, #zen-explanation abbr {
+    text-decoration: none;
+}
+
+#zen-participation a {
+    color: rgb(56, 55, 55);
+}
+
+#zen-participation h3,#zen-benefits h3 {
+    color: black;
+}
+
+#zen-requirements a {
+    color: black;
+    text-decoration: none;
+   
+}
+
+#zen-requirements abbr{
+    text-decoration: none;      
+}
+
+#zen-requirements [role="contentinfo"] {
+    background-color: rgb(93, 128, 93);
+    color: rgb(187, 179, 179);
+    font-family: 'roboto',sans-serif;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+#zen-requirements [role="contentinfo"] a{
+
+    color: white;
+    font-family: 'satisfy', cursive;
+    font-size: 36px;
+    margin: 0px;
+    
+    
+}
+
+footer {
+    background-color: rgb(51, 100, 67);
+    padding: 40px;
+    text-align: center;
+    
+}
+
+footer a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    word-spacing: 30px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none; 
+    color: white;
+    margin: 0px
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+}
+
+[role=navigation] li{
+    outline:none;
+    display: inline-block;
+    width: 49.8%;
+    text-align: center;
+    line-height: 3;
+    border-bottom: 1px solid grey;
+}
+
+[role=navigation]{
+    background-color: rgb(93, 128, 93);  
+}
+
+#zen-resources{
+    display:none
+}
+
+.select, .archives{
+    display: none;
+}
+
+
+
+  
+
